@@ -1,0 +1,17 @@
+[core]
+	editor = 'C:/Program Files/Sublime Text 3/sublime_tex.exe' -n -w
+	autocrlf = false
+[push]
+	default = upstream
+[merge]
+	conflictstyle = diff3
+[color "status"]
+	untracked = cyan normal
+	changed = yellow normal
+	added = green normal
+[color "diff"]
+	old = yellow normal
+[user]
+	name = Ali Alavi 
+	email = alialavia@gmail.com
+	
