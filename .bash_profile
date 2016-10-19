@@ -1,3 +1,6 @@
+# Set HOME
+HOME=/c/Users/alavis
+
 # Return immediately if we are not interactive
 [ -z "$PS1" ] && return
 
@@ -73,3 +76,5 @@ alias ls="ls --color"
 # Let's make git less verbos
 G=git@github.com
 myrepos=G:/alialavia
+
+
