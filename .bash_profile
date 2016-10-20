@@ -1,11 +1,8 @@
-# Set HOME
-HOME=/c/Users/alavis
-
 # Return immediately if we are not interactive
 [ -z "$PS1" ] && return
 
 # Enable tab completion
-source ~/git-completion.bash
+source git-completion.bash
 
 # get current git branch name
 function git_branch {
@@ -67,10 +64,10 @@ export PS1='\[\e${usercolor}\][\u]\[\e${cwdcolor}\][$PWD]\[\e${gitcolor}\]${gitb
 # '\$(__git_ps1)' adds git-related stuff
 # '\W' adds the name of the current directory
 #export PS1="$purple[\u]$white\W \$(__git_ps1)$blue $ $reset"
-alias subl="C:/Program\ Files/Sublime\ Text\ 3/sublime_text.exe"
+#alias subl="C:/Program\ Files/Sublime\ Text\ 3/sublime_text.exe"
 
 # Set ls colors
-eval `dircolors ~/.dircolors.ansi-light`
+eval `dircolors .dircolors.ansi-light`
 alias ls="ls --color"
 
 # Let's make git less verbos
