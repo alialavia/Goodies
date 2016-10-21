@@ -71,7 +71,7 @@ eval `dircolors .dircolors.ansi-light`
 alias ls="ls --color"
 
 # Let's make git less verbos
-G=git@github.com
-myrepos=G:/alialavia
+alias G=git@github.com
+alias A=G:/alialavia
 
 
